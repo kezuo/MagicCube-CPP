@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/zuoke/proj/QtProj/MagicCube/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/usr/include/qt5 -I/usr/include/qt5/QtOpenGL -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtCore -I/usr/lib64/qt5/./mkspecs/linux-g++    -g -std=c++11 -fPIC -o CMakeFiles/out.dir/MagicCube.cpp.o -c /home/zuoke/proj/QtProj/MagicCube/MagicCube.cpp",
+  "file": "/home/zuoke/proj/QtProj/MagicCube/MagicCube.cpp"
+},
+{
+  "directory": "/home/zuoke/proj/QtProj/MagicCube/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/usr/include/qt5 -I/usr/include/qt5/QtOpenGL -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtCore -I/usr/lib64/qt5/./mkspecs/linux-g++    -g -std=c++11 -fPIC -o CMakeFiles/out.dir/main.cpp.o -c /home/zuoke/proj/QtProj/MagicCube/main.cpp",
+  "file": "/home/zuoke/proj/QtProj/MagicCube/main.cpp"
+},
+{
+  "directory": "/home/zuoke/proj/QtProj/MagicCube/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/usr/include/qt5 -I/usr/include/qt5/QtOpenGL -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtCore -I/usr/lib64/qt5/./mkspecs/linux-g++    -g -std=c++11 -fPIC -o CMakeFiles/out.dir/Face.cpp.o -c /home/zuoke/proj/QtProj/MagicCube/Face.cpp",
+  "file": "/home/zuoke/proj/QtProj/MagicCube/Face.cpp"
+},
+{
+  "directory": "/home/zuoke/proj/QtProj/MagicCube/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/usr/include/qt5 -I/usr/include/qt5/QtOpenGL -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtCore -I/usr/lib64/qt5/./mkspecs/linux-g++    -g -std=c++11 -fPIC -o CMakeFiles/out.dir/MagicWidget.cpp.o -c /home/zuoke/proj/QtProj/MagicCube/MagicWidget.cpp",
+  "file": "/home/zuoke/proj/QtProj/MagicCube/MagicWidget.cpp"
+},
+{
+  "directory": "/home/zuoke/proj/QtProj/MagicCube/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/usr/include/qt5 -I/usr/include/qt5/QtOpenGL -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtCore -I/usr/lib64/qt5/./mkspecs/linux-g++    -g -std=c++11 -fPIC -o CMakeFiles/out.dir/Cube.cpp.o -c /home/zuoke/proj/QtProj/MagicCube/Cube.cpp",
+  "file": "/home/zuoke/proj/QtProj/MagicCube/Cube.cpp"
+},
+{
+  "directory": "/home/zuoke/proj/QtProj/MagicCube/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/usr/include/qt5 -I/usr/include/qt5/QtOpenGL -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtCore -I/usr/lib64/qt5/./mkspecs/linux-g++    -g -std=c++11 -fPIC -o CMakeFiles/out.dir/RotationState.cpp.o -c /home/zuoke/proj/QtProj/MagicCube/RotationState.cpp",
+  "file": "/home/zuoke/proj/QtProj/MagicCube/RotationState.cpp"
+},
+{
+  "directory": "/home/zuoke/proj/QtProj/MagicCube/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/usr/include/qt5 -I/usr/include/qt5/QtOpenGL -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtCore -I/usr/lib64/qt5/./mkspecs/linux-g++    -g -std=c++11 -fPIC -o CMakeFiles/out.dir/out_automoc.cpp.o -c /home/zuoke/proj/QtProj/MagicCube/build/out_automoc.cpp",
+  "file": "/home/zuoke/proj/QtProj/MagicCube/build/out_automoc.cpp"
+}
+]

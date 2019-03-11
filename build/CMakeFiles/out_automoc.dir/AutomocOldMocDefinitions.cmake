@@ -1,0 +1,1 @@
+set(AM_OLD_COMPILE_SETTINGS "QT_CORE_LIB;QT_GUI_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB ~~~ /usr/include/qt5;/usr/include/qt5/QtOpenGL;/usr/include/qt5/QtWidgets;/usr/include/qt5/QtGui;/usr/include/qt5/QtCore;/usr/lib64/qt5/./mkspecs/linux-g++;/usr/include ~~~  ~~~ FALSE ~~~ ")

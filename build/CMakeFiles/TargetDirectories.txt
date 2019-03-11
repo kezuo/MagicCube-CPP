@@ -1,0 +1,2 @@
+/home/zuoke/proj/QtProj/MagicCube/build/CMakeFiles/out.dir
+/home/zuoke/proj/QtProj/MagicCube/build/CMakeFiles/out_automoc.dir
