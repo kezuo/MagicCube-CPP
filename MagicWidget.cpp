@@ -45,6 +45,9 @@ void MagicWidget::resizeGL(int w,int h){
 	side=w<h?w:h;
 	centerX=w/2;
 	centerY=h/2;
+	magicCube.centerX=centerX;
+	magicCube.centerY=centerY;
+	magicCube.side=side;
 }
 void MagicWidget::mousePressEvent(QMouseEvent* event){
 	oldX=event->x();

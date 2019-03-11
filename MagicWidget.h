@@ -9,6 +9,7 @@ class MagicWidget:public QGLWidget{
 	Q_OBJECT
 	public:
 		explicit MagicWidget(QWidget* parent=NULL);
+		QMatrix4x4 modelView;
 	private:
 		QTimer timer;
 		bool passEvent;
@@ -21,7 +22,6 @@ class MagicWidget:public QGLWidget{
 		int oldY;
 		int side;
 		QMatrix4x4 rotateM;
-		QMatrix4x4 modelView;
 		MagicCube magicCube;
 	private slots:
 		void animate();

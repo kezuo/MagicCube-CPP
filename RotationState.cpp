@@ -30,6 +30,7 @@ mutex(){
 	animateTimer.setSingleShot(false);
 	animateTimer.setInterval(50);
 	connect(&animateTimer,SIGNAL(timeout()),this,SLOT(animate()));
+	animateTimer.start();
 }
 void RotationState::animate(){
 	int i;
