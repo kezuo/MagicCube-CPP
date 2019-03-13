@@ -25,8 +25,8 @@ void MagicWidget::setGL(){
 	glPointSize(3);
 	glClearColor(0,0,0,0);
 	glClearDepth(1);
-	glDepthRange(0,1);
-        glViewport((w - side) / 2, (h - side) / 2, side, side);
+    glDepthRange(0,1);
+    glViewport((w - side) / 2, (h - side) / 2, side, side);
 	glEnable(GL_DEPTH_TEST);
 	glDisable(GL_CULL_FACE);
 	glMatrixMode(GL_PROJECTION);

@@ -129,8 +129,8 @@ void RotationState::changeState(int kind,int times){
 	for(int i=0;i<times;i++){
 		int a,b,c;
 		a=state[operationIndexs[kind][9]];
-		b=state[operationIndexs[kind][10]];
-		b=state[operationIndexs[kind][11]];
+        b=state[operationIndexs[kind][10]];
+        c=state[operationIndexs[kind][11]];
 		for(int j=2;j>=0;j--){
 			state[operationIndexs[kind][(j+1)*3]]=state[operationIndexs[kind][j*3]];
 			state[operationIndexs[kind][(j+1)*3+1]]=state[operationIndexs[kind][j*3+1]];

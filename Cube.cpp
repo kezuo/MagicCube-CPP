@@ -26,8 +26,8 @@ Cube::Cube():faces(),matrix(),glList(0),faces_initializer{
 {&right,{0x222222ff,0xffffffff}},
 {&bottom,{0x333333ff,0xffffffff}},
 {&top,{0x444444ff,0xffffffff}},
-{&near,{0x555555ff,0xffffffff}},
-{&far,{0x666666ff,-0xffffffff}}
+{&nea,{0x555555ff,0xffffffff}},
+{&fa,{0x666666ff,-0xffffffff}}
 }{
 	unsigned int *memory;
 	int index;

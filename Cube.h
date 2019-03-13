@@ -10,8 +10,8 @@ class Cube{
 		static const Face planes[6];
 		const Face &left=planes[0];
 		const Face &right=planes[1];
-		const Face &near=planes[2];
-		const Face &far=planes[3];
+        const Face &nea=planes[2];
+        const Face &fa=planes[3];
 		const Face &bottom=planes[4];
 		const Face &top=planes[5];
 		initializer_list<pair<const Face*,initializer_list<unsigned int>>> faces_initializer;

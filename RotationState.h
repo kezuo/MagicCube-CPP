@@ -12,11 +12,11 @@ class RotationState:QObject{
 		const static int operationIndexs[9][12];
 		const static int operationLateralIndexs[6][8];
 		RotationState();
-		~RotationState();
+        ~RotationState();
+        bool rotateAxisSetted;
 		int controledIndex;
 		double remainDegree;
 		int state[54];
-		bool rotateAxisSetted;
 		QVector4D rotateAxis;
 		Cube* allCube[27];
 		Cube* reArrangedCubes[3][9];
