@@ -3,10 +3,6 @@
 #include <QGLFormat>
 #include <QPushButton>
 #include <QVBoxLayout>
-void action(){
-    static int i=0;
-    qInfo()<<"hello"<<i++;
-}
 int main(int argc,char** args){
     QApplication app(argc,args);
 	QGLFormat format=QGLFormat();
@@ -21,6 +17,6 @@ int main(int argc,char** args){
 	vLayout.addWidget(&button);
 	vLayout.addWidget(&mgW);
 	all.show();
-	QObject::connect(&button,&QPushButton::clicked,&action);
+    QObject::connect(&button,&QPushButton::clicked,&mgW,&MagicWidget::reSet);
 	return app.exec();
 }	

@@ -83,3 +83,7 @@ void MagicWidget::mouseReleaseEvent(QMouseEvent* event){
 		magicCube.operaEnd(endX,endY);
 	}
 }
+void MagicWidget::reSet(){
+    modelView.setToIdentity();
+    modelView.scale(0.125,0.125,0.125);
+}

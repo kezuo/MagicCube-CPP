@@ -155,7 +155,7 @@ bool MagicCube::operaContin(int wx,int wy){
 				mapToCubes[normalComponent]=list<Cube*>{&cube};
 				keys.push_back(normalComponent);
 			}
-			if(abs(normalComponent)<Face::dist/3000)i++;
+            if(abs(normalComponent)<Face::dist/200)i++;
 		}
 		if(i!=9){
 			rotationState.rotateAxisSetted=false;

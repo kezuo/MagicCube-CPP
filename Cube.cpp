@@ -21,6 +21,12 @@ const Face Cube::planes[6]=
 {{0,0},{1,1},{2,2},{9,3},{10,4},{11,5},{18,6},{19,7},{20,8}}},
 {{{-1,-1,1},{-1,1,1},{1,1,1},{1,-1,1},{0,0,1}},0xffff00ff,
 {{6,20},{7,19},{8,18},{15,23},{16,22},{17,21},{24,26},{25,25},{26,24}}}};
+const Face& Cube::left=Cube::planes[0];
+const Face& Cube::right=Cube::planes[1];
+const Face& Cube::bottom=Cube::planes[2];
+const Face& Cube::top=Cube::planes[3];
+const Face& Cube::nea=Cube::planes[4];
+const Face& Cube::fa=Cube::planes[5];
 Cube::Cube():faces(),matrix(),glList(0),faces_initializer{
 {&left,{0x111111ff,0xffffffff}},
 {&right,{0x222222ff,0xffffffff}},

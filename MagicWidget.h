@@ -10,6 +10,7 @@ class MagicWidget:public QGLWidget{
 	public:
 		explicit MagicWidget(QWidget* parent=NULL);
 		QMatrix4x4 modelView;
+        void reSet();
 	private:
 		QTimer timer;
 		bool passEvent;
