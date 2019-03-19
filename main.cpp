@@ -4,10 +4,11 @@
 #include <QPushButton>
 #include <QVBoxLayout>
 void action(){
-	qInfo()<<"hello";
+    static int i=0;
+    qInfo()<<"hello"<<i++;
 }
 int main(int argc,char** args){
-	QApplication app(argc,args);
+    QApplication app(argc,args);
 	QGLFormat format=QGLFormat();
 	format.setVersion(2,0);//3.x can't work
 	QGLFormat::setDefaultFormat(format);

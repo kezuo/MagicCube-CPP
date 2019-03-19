@@ -60,8 +60,8 @@ void MagicWidget::mousePressEvent(QMouseEvent* event){
 void MagicWidget::mouseMoveEvent(QMouseEvent* event){
 	int curX=event->x();
 	int curY=h-event->y();
-	if(passEvent){
-		magicCube.operaContin(curX,curY);
+    if(passEvent){
+        passEvent=magicCube.operaContin(curX,curY);
 		return;
 	}
 	int dX=curX-oldX;

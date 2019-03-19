@@ -4,6 +4,7 @@
 #include <map>
 #include <list>
 #include <cmath>
+#define GL_UNSIGNED_INT_8_8_8_8 0x8035
 
 MagicCube::MagicCube(){
 	for(auto& plane:Cube::planes){
@@ -172,13 +173,14 @@ bool MagicCube::operaContin(int wx,int wy){
 	else if(rotationState.operatingCubesIndex==-1){
 		finded=false;
 		for(i=0;i<3;i++){
-			for(auto cube:rotationState.reArrangedCubes[i])if(cube==curCube){
+            for(auto& cube:rotationState.reArrangedCubes[i])if(cube==curCube){
 				finded=true;
 				break;
 			}
 			if(finded)break;
 		}
-		rotationState.operatingCubesIndex=i;
+        if(finded)rotationState.operatingCubesIndex=i;
+        else return false;
 	}
 	else{
  		glGetDoublev(GL_PROJECTION_MATRIX, projection); 
@@ -189,10 +191,10 @@ bool MagicCube::operaContin(int wx,int wy){
 		QVector3D winTan(a-centerX,b-centerY,0);
 		double degree=QVector3D::dotProduct(QVector3D(wx-oldX,wy-oldY,0),winTan)*360/winTan.length()/side;
 		rotationState.rotateCubes(degree);
-		oldX=wx;
-		oldY=wy;
 	}
-	return false;
+        oldX=wx;
+        oldY=wy;
+    return true;
 }
 
 bool MagicCube::operaEnd(int wx,int wy){
